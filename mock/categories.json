@@ -1,0 +1,37 @@
+[
+  {
+    "id": "coffee",
+    "name": "Cà phê",
+    "icon": "/img/coffee.jpg"
+  },
+  {
+    "id": "matcha",
+    "name": "Trà xanh",
+    "icon": "/img/tra.jpg"
+  },
+  {
+    "id": "food",
+    "name": "Đồ ăn vặt",
+    "icon": "/img/anvat.jpg"
+  },
+  {
+    "id": "milktea",
+    "name": "Trà sữa",
+    "icon": "/img/trasua.jpg"
+  },
+  {
+    "id": "drinks",
+    "name": "Giải khát",
+    "icon": "/img/giaikhat.jpg"
+  },
+  {
+    "id": "bread",
+    "name": "Bánh mỳ",
+    "icon": "/img/banhmi.jpg"
+  },
+  {
+    "id": "juice",
+    "name": "Nước ép",
+    "icon": "/img/nuocep.jpg"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "app": {
+    "title": "DemoTikoviaCoffee",
+    "textColor": "black",
+    "leftButton": "none",
+    "statusBar": "transparent",
+    "selfControlLoading": false,
+    "hideAndroidBottomNavigationBar": false,
+    "hideIOSSafeAreaBottom": false,
+    "actionBarHidden": true
+  },
+  "listCSS": [
+    "./assets/index-j56Nd8Xl.css"
+  ],
+  "listSyncJS": [
+    "inline.js",
+    "./assets/index.WILqvlTU.module.js"
+  ],
+  "listAsyncJS": [],
+  "template": {
+    "name": "zaui-coffee",
+    "primaryColor": "#006af5",
+    "prefixCurrencySymbol": false,
+    "currencySymbol": "đ",
+    "headerLogo": ""
+  }
+}
