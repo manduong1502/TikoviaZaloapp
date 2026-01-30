@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { Route, Routes } from "react-router-dom";  // ← đổi sang import này (hoặc từ zmp-ui nếu nó export)
+import { Route, Routes } from "react-router-dom";
 import { Box } from "zmp-ui";
 import { Navigation } from "./navigation";
 import HomePage from "../pages/index/index";
@@ -14,7 +14,6 @@ import { getSystemInfo } from "zmp-sdk";
 import { ScrollRestoration } from "./scroll-restoration";
 import { useHandlePayment } from "../hooks";
 
-// Phần set safe area giữ nguyên
 if (import.meta.env.DEV) {
   document.body.style.setProperty("--zaui-safe-area-inset-top", "24px");
 } else if (getSystemInfo().platform === "android") {
@@ -25,7 +24,6 @@ if (import.meta.env.DEV) {
 
 const Layout: FC = () => {
   useHandlePayment();
-
   return (
     <Box flex flexDirection="column" className="h-screen">
       <ScrollRestoration />
