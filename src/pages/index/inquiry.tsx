@@ -9,8 +9,9 @@ export const Inquiry: FC = () => {
   const { t } = useTranslation();
 
   return (
+    // top 30px để chỉnh lệch so với deploy (quan trọng)
     <Box 
-      className="absolute top-[5px] left-0 right-0 z-10 px-4 transform translate-y-[220%]"
+      className="absolute top-[30px] left-0 right-0 z-10 px-4 transform translate-y-[220%]"
     >
       <Input
         placeholder={t("Tìm nhanh đồ uống, món mới ...")}
